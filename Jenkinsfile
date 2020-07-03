@@ -3,7 +3,6 @@ pipeline{
         stages{
             stage('Clone repo'){
                 steps{
-                    sh "sudo apt install git-all"
                     sh "git clone https://gitlab.com/qacdevops/chaperootodo_client.git"
                 }
             }
